@@ -1,5 +1,6 @@
 {
   "Requirement": {
+    "id": "int",
     "DMR Number": "string",
     "DMR Name": "string",
     "Status": "Status[]",
@@ -11,21 +12,25 @@
     "updatedAt": "date"
   },
   "Status": {
+    "id": "int",
     "staus": "string",
     "createdAt": "date",
     "updatedAt": "date"
   },
   "Type": {
+    "id": "int",
     "type": "string",
     "createdAt": "date",
     "updatedAt": "date"
   },
   "Category": {
+    "id": "int",
     "category": "string",
     "createdAt": "date",
     "updatedAt": "date"
   },
   "Bucket": {
+    "id": "int",
     "bucket": "string",
     "createdAt": "date",
     "updatedAt": "date"
