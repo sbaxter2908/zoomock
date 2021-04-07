@@ -3,10 +3,10 @@
     "id": "int",
     "DMR Number": "string",
     "DMR Name": "string",
-    "Status": "Status[]",
-    "Type": "Type[]",
-    "Category": "Category[]",
-    "Bucket": "Bucket[]",
+    "statuses": "Status[]",
+    "types": "Type[]",
+    "categories": "Category[]",
+    "buckets": "Bucket[]",
     
     "createdAt": "date",
     "updatedAt": "date"
