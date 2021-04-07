@@ -1,13 +1,33 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
+  "Requirement": {
+    "DMR Number": "string",
+    "DMR Name": "string",
+    "Status": "Status[]",
+    "Type": "Type[]",
+    "Category": "Category[]",
+    "Bucket": "Bucket[]",
+    
     "createdAt": "date",
-    "comments": "Comment[]"
+    "updatedAt": "date"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Status": {
+    "staus": "string",
+    "createdAt": "date",
+    "updatedAt": "date"
+  },
+  "Type": {
+    "type": "string",
+    "createdAt": "date",
+    "updatedAt": "date"
+  },
+  "Category": {
+    "category": "string",
+    "createdAt": "date",
+    "updatedAt": "date"
+  },
+  "Bucket": {
+    "bucket": "string",
+    "createdAt": "date",
+    "updatedAt": "date"
   }
 }
